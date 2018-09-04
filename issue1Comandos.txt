@@ -1,0 +1,148 @@
+    1  cd /media/uspdev/VBox_GAs_5.2.12/
+    2  ls
+    3  ./VBoxLinuxAdditions.run 
+    4  sudo ./VBoxLinuxAdditions.run 
+    5  sudo apt update
+    6  sudo apt upgrade 
+    7  sudo apt install composer php-cli curl git
+    8  composer
+    9  sudo apt install mariadb-server
+   10  lsblk 
+   11  sudo apt install ubuntu-make
+   12  sudo apt install neofetch 
+   13  neofetch 
+   14  sudo systemctl start mariadb
+   15  sudo mysql_secure_installation 
+   16  sudo mysql -uroot
+   17  mysql -uroot -p
+   18  umake ide
+   19  umake ide visual-studio-code
+   20  lxterminal --help
+   21  php -a
+   22  lxpanel --restart
+   23  lxpanel -r
+   24  openbox --restart
+   25  visual-studio-code 
+   26  php -v
+   27  umake ide sublime-text
+   28  sudo apt install vim
+   29  vim
+   30  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   31  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   32  sudo apt-get update
+   33  sudo apt-get install sublime-text
+   34  sudo apt install synaptic
+   35  sudo apt install inkscape
+   36  neofetch 
+   37  visual-studio-code 
+   38  sudo apt install libgconf-2-4 
+   39  ssh-keygen 
+   40  sudo systemctl status mariadb
+   41  neof
+   42  neofetch 
+   43  sudo apt install nodejs
+   44  sudo apt search nodejs
+   45  sudo apt install nodejs
+   46  openbox --restart
+   47  neofetch 
+   48  node
+   49  composer create-project laravel/laravel teste-laravel
+   50  sudo apt install php-mbstring php-pdo-mysql php-mysqli
+   51  composer create-project laravel/laravel teste-laravel
+   52  rm -rf teste-laravel/
+   53  composer create-project laravel/laravel teste-laravel
+   54  rm -rf teste-laravel/
+   55  sudo apt install php-xml
+   56  composer create-project laravel/laravel teste-laravel
+   57  cd teste-laravel/
+   58  ls
+   59  php artisan serve
+   60  php artisan migrate
+   61  vim .env
+   62  mysql -uroot -p
+   63  vim .env
+   64  fg
+   65  php artisan migrate
+   66  vim app/Providers/AppServiceProvider.php 
+   67  php artisan migrate
+   68  vim app/Providers/AppServiceProvider.php 
+   69  php artisan migrate
+   70  php artisan migrate:fresh
+   71  npm install
+   72  sudo apt install npm
+   73  sudo systemctl disable mariadb
+   74  sudo systemctl stop mariadb
+   75  sudo apt remove --purge mariadb*
+   76  sudo apt install mysql-server
+   77  mysql_secure_installation 
+   78  sudo mysql_secure_installation 
+   79  sudo mysql
+   80  mysql -uroot -p
+   81  mysqlshow -uuspdev -p
+   82  cd teste-laravel/
+   83  vim .env
+   84  php artisan migrate
+   85  cd ..
+   86  rm -rf teste-laravel/
+   87  composer create-project laravel/laravel teste-laravel
+   88  cd teste-laravel/
+   89  vim .env
+   90  php artisan migrate:fresh
+   91  cd ..
+   92  ls /etc/apt/sources.list.d/
+   93  cat /etc/apt/sources.list.d/sublime-text.list 
+   94  vim /etc/apt/sources.list.d/sublime-text.list 
+   95  composer create-project laravel/laravel blog
+   96  cd blog
+   97  mmsql
+   98  mysql
+   99  mysql -ublog -p
+  100  cd..
+  101  /cd
+  102  cd
+  103  mysql -ublog -p
+  104  mysql
+  105  mysql -h localhost -u uspdev -p
+  106  mysql -u root -p
+  107  ls
+  108  -ls
+  109  clear
+  110  vim .
+  111  php artisan migrate
+  112  cd blog
+  113  php artisan migrate
+  114  ls -a
+  115  php artisan migrate
+  116  clear
+  117  php artisan migrate
+  118  zsh
+  119  cd .ssh
+  120  ls
+  121  ssh
+  122  cd..
+  123  cd ..
+  124  ls
+  125  cd projetosLaravel/
+  126  ls
+  127  git clone git@github.com:cardolive/disciplinas_3040414.git
+  128  cd .ssh
+  129  cd ..
+  130  cd .ssh
+  131  ls
+  132  ssh -keygen
+  133  ssh-keygen
+  134  cd ..
+  135  cd projetosLaravel/
+  136  ls
+  137  cd disciplinas_3040414/
+  138  ls
+  139  sudo apt install zsh
+  140  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  141  zsh
+  142  cd projetosLaravel/disciplinas_3040414/
+  143  ls
+  144  php artisan tinker
+  145  git status
+  146  zsh
+  147  cd projetosLaravel/disciplinas_3040414/
+  148  history > issue1.txt
